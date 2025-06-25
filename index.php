@@ -22,7 +22,8 @@ if($loggedin) {
 <body id="APP">
 
   <!-- navigation -->
-  <aside>    
+  <aside> 
+  <?php require './essentials/navigation.php'; ?>   
   </aside>
 
   <!-- content area -->
@@ -30,6 +31,7 @@ if($loggedin) {
   <?php require './features/index.php'; ?>   
   </main>
 
+</body>
 <?php
 }
 else {
@@ -39,3 +41,5 @@ else {
 
 <?php require './login.php'; 
 } ?>
+
+</body>

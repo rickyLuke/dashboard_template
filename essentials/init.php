@@ -1,6 +1,6 @@
 <?php
 
-$loggedin = false;
+$loggedin = true;
 
 $features = [
 	'Dashboard'      => 'dashboard.php',
