@@ -10,8 +10,13 @@
   <title>Dashboard Template</title>
 
   <!-- styling -->
+  <link rel="stylesheet" type="text/css" href="./css/coloring.css"> 
   <link rel="stylesheet" type="text/css" href="./css/main.css"> 
   <link rel="stylesheet" type="text/css" href="./css/login.css">  
+  <link rel="stylesheet" type="text/css" href="./css/styling.css"> 
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
 </head>
 
 <?php
@@ -22,15 +27,25 @@ if($loggedin) {
 <body id="APP">
 
   <!-- navigation -->
-  <aside> 
+  <aside class="menu hide" id="menu"> 
   <?php require './essentials/navigation.php'; ?>   
   </aside>
 
   <!-- content area -->
-  <main>
-  <?php require './features/index.php'; ?>   
+  <main class="main" id="main">
+    <header>
+      <div id="mobile_menu" class="icon_large">
+        <span class="fa-solid fa-bars"></span>
+      </div>
+    </header>
+
+    <section class="content_area">
+      <?php require './features/index.php'; ?> 
+    </section>
   </main>
 
+  <!-- scripts -->
+  <script src="./scripts/style.js"></script>
 </body>
 <?php
 }

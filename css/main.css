@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: ease 0.5s;
 }
 
 /* Typography */
@@ -21,7 +22,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: var(--primary-dark);
+  color: var(--black);
   margin-bottom: 1rem;
 }
 
@@ -139,4 +140,10 @@ input[type="submit"]:hover,
 
 .btn-secondary:hover {
   background-color: var(--secondary-dark);
+}
+
+
+/* icons */
+.icon_large, .icon_large span {
+  font-size: 2rem !important;
 }

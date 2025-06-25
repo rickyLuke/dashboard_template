@@ -1,6 +1,6 @@
 <?php
 
-$nav = "<ul>";
+$nav = "<ul class='nav_items'>";
 
 foreach ($features as $key => $value) {
 

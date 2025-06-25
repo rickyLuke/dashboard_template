@@ -1,0 +1,70 @@
+#APP {
+	width: 100%;
+	width: 100vw;
+	min-height: 100vh;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	display: flex;
+}
+
+#mobile_menu {
+	width: fit-content;
+	display: block;
+	cursor: pointer;
+}
+
+.menu, aside {
+	border: 1px solid red;
+	min-width: 250px;	
+	position: relative;	
+	border-radius: 5px;
+	background: var(--dark-gray);
+	color: var(--light-gray) !important;
+	padding: 20px 15px;
+}
+
+.menu.hide {
+	transform: translateX(-250px);
+}
+
+.menu .nav_items {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	list-style-position: inside;
+}
+
+.menu .nav_items li {
+	width: 100%;
+	padding: 8px 12px;
+	margin-bottom: 10px;
+	background: var(--light-gray);
+	color: var(--dark-gray);
+	border-radius: 5px;
+	font-size: 0.9rem;
+}
+
+.menu .nav_items li:hover {
+	background: var(--medium-gray);
+	font-weight: 300px;
+}
+
+.main, main
+{
+	border: 1px solid var(--medium-gray);
+	min-width: 100vw;
+	transform: translateX(-250px);
+	padding: 15px 20px;
+	position: relative;
+	opacity: 1;
+	border-radius: 5px;
+}
+
+.main.slide {
+	transform: translateX(5px);		
+}
+
+.main.slide .content_area {
+	pointer-events: none;
+	opacity: 0.4;
+}
