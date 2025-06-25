@@ -1,0 +1,28 @@
+:root {
+  /* Secondary Colors (based on profile cover) */
+  --secondary-dark: #1a2e35;    /* Dark blue-green from cover */
+  --secondary-main: #2c5f73;    /* Medium blue from cover */
+  --secondary-light: #4a8bad;   /* Lighter blue accent */
+  
+  /* Primary Colors */
+  --primary-dark: #6b2737;   /* Deep red/maroon */
+  --primary-main: #e76f51;   /* Coral accent */
+  --primary-light: #f4a261;  /* Light orange */
+  
+  /* Neutral Colors */
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+  --medium-gray: #e9ecef;
+  --dark-gray: #495057;
+  --black: #212529;
+  
+  /* Accent Colors */
+  --accent-yellow: #e9c46a;   /* Gold/yellow accent */
+  --accent-green: #2a9d8f;    /* Teal accent */
+  
+  /* Status Colors */
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --info: #17a2b8;
+}
