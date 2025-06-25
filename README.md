@@ -11,7 +11,7 @@ A single-page dashboard that loads content dynamically without page reloads.
    - `features/index.php` (Application layout)
    - `essentials/` folder (Bears all essential files for the application to run smoothly)
    - `essentials/init.php`        (Main file for php application logic)
-   - `essentials/sidebar.php`     (Auto-generated navigation) 
+   - `essentials/navigation.php`     (Auto-generated navigation) 
    - `css/` folder (Application styling and layout)
 
 2. **Add all the pages to use in the application in (features/) files must end with .php**
@@ -22,7 +22,7 @@ A single-page dashboard that loads content dynamically without page reloads.
    - If set to false, you get to the login page
    - That can be cnahged to match your authorization policy accordingly
 
-   - To add sidebar links:
+   - To add navigation links:
    ```php
    <?php
    $features = [
