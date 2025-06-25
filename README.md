@@ -16,7 +16,13 @@ A single-page dashboard that loads content dynamically without page reloads.
 
 2. **Add all the pages to use in the application in (features/) files must end with .php**
 
-3. **Edit `init.php` to add sidebar links**:   
+3. **Edit `init.php`** 
+   - $loggedin emulates whether a user is signed in or not
+   - If set to true, you gain access to the applicatio
+   - If set to false, you get to the login page
+   - That can be cnahged to match your authorization policy accordingly
+
+   - To add sidebar links:
    ```php
    <?php
    $features = [

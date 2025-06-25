@@ -1,4 +1,4 @@
-<?php $loggedin = true; ?>
+<?php require './essentials/init.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
