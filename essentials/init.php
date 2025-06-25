@@ -2,6 +2,8 @@
 
 $loggedin = true;
 
+$path = 'http://localhost/dashboard_template/';
+
 $features = [
 	'Dashboard'      => 'dashboard.php',
     'Analytics' => 'analytics.php',
