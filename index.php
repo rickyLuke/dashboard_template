@@ -27,8 +27,14 @@ if($loggedin) {
 <body id="APP">
 
   <!-- navigation -->
-  <aside class="menu hide" id="menu"> 
-  <?php require './essentials/navigation.php'; ?>   
+  <aside class="menu hide" id="menu">
+    <div class="logo" id="logo">
+        <h2>LOGO</h2>
+    </div> 
+    <?php require './essentials/navigation.php'; ?> 
+    <ul class='nav_items last'>
+      <li data-ur=''><span class="fa-solid fa-arrow-right-from-bracket"></span> LOG OUT</li>
+    </ul>  
   </aside>
 
   <!-- content area -->

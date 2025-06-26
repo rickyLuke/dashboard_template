@@ -14,8 +14,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
   width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
+  max-height: 100vh;
+  overflow: hidden;
   color: var(--dark-gray);
 }
 
